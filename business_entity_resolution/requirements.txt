@@ -1,0 +1,13 @@
+# Python 3.10.11
+# torch: CUDA 12.4 build (pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124);
+# the CPU build also works but candidate generation becomes much slower.
+torch==2.6.0
+polars==1.44.2
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+lightgbm==4.7.0
+rapidfuzz==3.14.5
+pyarrow==25.0.1
+psutil==7.2.2
